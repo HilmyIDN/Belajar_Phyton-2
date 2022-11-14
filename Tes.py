@@ -82,9 +82,9 @@ print(not(3 <= 1))
 #Buatlah sebuah if-else statement yang dimana akan mem-print 'High' jika grade adalah 'A' dan price lebih dari 100000, kemudian mem-print 'Medium' jika grade adalah 'A' dan price lebih dari 50000 dan memprint 'low' jika grade adalah 'A' dan price lebih kecil dan sama dengan 50000.
 
 A = 100001
-if A >= 100000:
+if A > 100000:
     print("High")
-elif A >= 50000:
+elif A > 50000:
     print("Medium")
 elif A <= 50000:
     print("Low")
